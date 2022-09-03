@@ -1,0 +1,144 @@
+     @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+
+}
+header {
+    background-color: #000000;
+    color: #000000;
+    height: 110px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+
+
+    
+#logo {
+    width: 370px;
+    position: absolute;
+    top: 10px;
+    margin-left: 5%;
+}
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 20px;
+    padding: 4px 12px;
+    display: inline-block;
+    background-color:hsl(0, 0%, 100%);
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom:3px solid #000000;
+    font-family: 'Quicksand', sans-serif;
+    }
+li {
+    float: left;
+    padding: 20 10 20 10;
+}
+li:hover {
+    background-color: #01AAEA;
+}
+#imagem_fundo {
+background-color: #ffffff;
+
+
+}
+
+#titulo {
+    color: white;
+    padding-top: 20%;
+    font-size: 70px;
+    line-height: 0.6;
+    font-family: 'Quicksand', sans-serif;
+
+    
+}
+#subtitulo {
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-top: 3px solid white;
+    text-shadow: 1px 1px  black;
+}
+#acao {
+    color: white;
+    border: 1px white solid;
+    padding: 10px 20px 10px 20px ;
+}
+.icone {
+    width: 51px;
+}
+section {
+    padding: 20px;
+    float: left;
+}
+.destaque {
+    background-color: #ededeeef;
+}
+.imgeco {
+    width: 90%;
+    height: 30%;
+}
+
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.dois {
+    width: 40%;
+}
+.quatro {
+    width: 15%;
+}
+.tres {
+    width: 29%;
+    padding: 0 2%;
+}
+
+.justificado {
+    text-align: justify;
+}
+.centralizado {
+    text-align: center;
+}
+footer {
+    background-color: #000000;
+    float: left;
+    width: 100%;
+    height: 40%;
+    color: white;
+}
+
+@media all and (max-width: 768px) {
+   #menu {
+       visibility: hidden;
+   } 
+   .coluna, .dois, .tres, .quatro {
+        display: block;   
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+   }
+   #logodiv {
+       width: 100%;
+       position: relative;
+       text-align: center;
+       padding: 0px;
+   }
+   #logo {
+       margin-left: 0px;
+       transform: translateX(-50%);
+
+    
+   }
+}
